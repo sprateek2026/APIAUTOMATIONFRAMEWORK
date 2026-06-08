@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org">
+<suite name="API TEST SUITE" parallel="methods" thread-count="4">
+    <test name="APITEST">
+        <classes>
+            <class name="com.api.test.loginapitest" />
+        </classes>
+    </test>
+</suite>
